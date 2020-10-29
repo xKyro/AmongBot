@@ -1,0 +1,9 @@
+const {MessageEmbed} = require("discord.js")
+module.exports={
+  name: "",
+  category: "",
+  description: "",
+  run: async(bot, message, args) =>{
+    //Commands here
+  }
+}
