@@ -11,6 +11,7 @@ const monitor = new Monitor({
     title: 'Secundario',
     interval: 5 // minutes
 });
+//This is just an edit
 
 monitor.on('up', (res) => console.log(`${res.website} esta online.`));
 monitor.on('down', (res) => console.log(`${res.website} se ha caído - ${res.statusMessage}`));
